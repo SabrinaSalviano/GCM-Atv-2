@@ -28,7 +28,66 @@
             flex-direction: column;
   }
   
-  .main label {
+
+  .tituloInicio{
+    position: absolute;
+    top: 4%;
+    color: black;
+    font-size: 50px;
+
+
+  }
+
+  .LinhaInicio{
+    position: absolute;
+    top: 10%;
+    background-color: black;
+    width: 100%;
+    height: 1px; 
+
+
+  }
+
+  .label1{
+    position: absolute;
+    top: 15%;
+    left: 20%;
     font-size: 20px;
-    
+    color: white;
+  }
+
+  .label2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .label3{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .label4{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    font-size: 20px;
+    color: white;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+
   }
