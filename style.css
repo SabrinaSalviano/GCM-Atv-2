@@ -26,13 +26,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            background-image: url(hcrop1920x1368@stretch.jpg);
+            background-size: cover;
   }
   
 
   .tituloInicio{
     position: absolute;
     top: 4%;
-    color: black;
+    color: white;
     font-size: 50px;
 
 
@@ -42,11 +44,64 @@
     position: absolute;
     top: 10%;
     background-color: black;
-    width: 100%;
+    width: 99%;
     height: 1px; 
 
 
   }
+
+  .card{
+    position:absolute;
+    top: 25%;
+    left: 32%;
+    width: 700px;
+    height:500px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card div{
+    width: 80%;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.card h2{
+
+color: white;
+font-family: sans-serif;
+margin-bottom: 25px;
+
+}
+
+.card label{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+input{
+width: 100%;
+height: 50px;
+
+}
+
+button{
+  width: 40%;
+  height: 50px;
+  font-size:21px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 
   .label1{
     position: absolute;
